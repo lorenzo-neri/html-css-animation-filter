@@ -53,11 +53,39 @@
 
 /* ESERCIZIO 7 */
 .ex-7-img:hover{
-    filter: grayscale(1);
-    filter: brightness(1);
+    filter: blur(5px) brightness(1.5);
 }
 .ex-7-img{
     transition: 1s;
+}
+
+/* ESERCIZIO 8 */
+.ex-8-img:hover{
+    filter: sepia(1) saturate(10);
+    border-radius: 100px;
+}
+.ex-8-img{
+    transition: 1s;
+}
+
+/* ESERCIZIO 9 */
+.ex-9-img:hover{
+    filter: sepia(3) contrast(3);
+    border-radius: 100%;
+    transform: scale(1.5);
+}
+.ex-9-img{
+    transition: 1s;
+}
+
+/* ESERCIZIO 10 */
+.ex-10-icon{
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(2turn);
+    }
 }
 
 /* STYLE in DOTAZIONE */
