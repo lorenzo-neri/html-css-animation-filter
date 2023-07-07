@@ -51,6 +51,15 @@
     transition: 1s;
 }
 
+/* ESERCIZIO 7 */
+.ex-7-img:hover{
+    filter: grayscale(1);
+    filter: brightness(1);
+}
+.ex-7-img{
+    transition: 1s;
+}
+
 /* STYLE in DOTAZIONE */
 
 
