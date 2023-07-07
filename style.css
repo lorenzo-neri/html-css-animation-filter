@@ -9,10 +9,39 @@
 }
 
 /* ESERCIZIO 2 */
+.ex-2-square:active{
+    width: 100%;
+}
+.ex-2-square{
+    transition: 2s;
+}
 
+/* ESERCIZIO 3 */
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+.ex-3-square{
+    transition: 1.5s;
+}
 
+/* ESERCIZIO 4 */
+.ex-4-square:hover{
+    opacity: 0;
+}
+.ex-4-square{
+    transition: 2s;
+}
 
-
+/* ESERCIZIO 5 */
+.ex-5-square:hover{
+    transform: scale(4);
+}
+.ex-5-square:active{
+    transform: scale(0.2);
+}
+.ex-5-square{
+    transition: 1s;
+}
 /* STYLE in DOTAZIONE */
 
 
